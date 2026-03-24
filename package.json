@@ -1,0 +1,19 @@
+{
+  "name": "kol-tracker",
+  "version": "1.0.0",
+  "description": "KOL listening + credibility tracking for Solana meme coins. Tracks token calls, measures accuracy at 48h, ranks by win rate.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "npx nodemon backend/server.js",
+    "seed": "node scripts/seed-kols.js"
+  },
+  "keywords": ["solana", "kol", "tracker", "meme-coins", "crypto", "twitter", "x-api"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
